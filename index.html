@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CARE INFOSYS</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/919810033475" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Language Toggle -->
+<div class="lang-toggle">
+  <button onclick="switchLang('en')">EN</button>
+  <button onclick="switchLang('hi')">हिं</button>
+</div>
+
+<!-- Hero -->
+<header class="hero">
+  <h1>CARE INFOSYS</h1>
+  <p><span id="typed-text"></span></p>
+  <div class="cta-buttons">
+    <a href="#form" class="btn pulse">Book a Service</a>
+    <a href="https://maps.app.goo.gl/PxZccQmYV8uCjwJHA" class="btn-outline" target="_blank">Get Directions</a>
+  </div>
+</header>
+
+<!-- Why Choose Us -->
+<section class="section">
+  <h2>Why Choose Us?</h2>
+  <div class="why-cards">
+    <div class="why-card"><i class="fas fa-thumbs-up"></i><p>Trusted Service</p></div>
+    <div class="why-card"><i class="fas fa-certificate"></i><p>Genuine Products</p></div>
+    <div class="why-card"><i class="fas fa-tools"></i><p>On-site Support</p></div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section about" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p>
+      We are a team of passionate professionals offering top-notch IT and security solutions in Delhi.
+      From laptop repairs to CCTV networking and AMC, we cover it all with expertise and commitment.
+    </p>
+  </section>
+
+<!-- Gallery -->
+<section class="section gallery">
+  <h2>Our Work</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <a href="images/work1.jpg" data-lightbox="work"><img src="images/work1.jpg" loading="lazy" /></a>
+      <div class="caption">CCTV Installation</div>
+    </div>
+    <div class="gallery-item">
+      <a href="images/work2.jpg" data-lightbox="work"><img src="images/work2.jpg" loading="lazy" /></a>
+      <div class="caption">Inverter Setup</div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Slider -->
+<section class="section">
+  <h2>What Our Clients Say</h2>
+  <div class="swiper testimonials-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">"Amazing service!" – Rajesh</div>
+      <div class="swiper-slide">"Quick CCTV install." – Priya</div>
+      <div class="swiper-slide">"Affordable AMC." – Mohan</div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<!-- Team -->
+<section class="section team">
+  <h2>Meet Our Team</h2>
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="images/navin_sharma.jpg" alt="Navin Sharma">
+      <h4>Navin Sharma</h4>
+      <p>Founder & Technician</p>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section class="section pricing">
+  <h2>Pricing Plans</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <h3>Basic AMC</h3><p>₹799/year</p>
+      <ul><li>1 Device</li><li>Basic Antivirus</li><li>Remote Support</li></ul>
+    </div>
+    <div class="pricing-card popular">
+      <h3>CCTV Setup</h3><p>₹4999</p>
+      <ul><li>2 Cameras</li><li>Free Installation</li><li>1 Yr Warranty</li></ul>
+    </div>
+    <div class="pricing-card">
+      <h3>Repair Plan</h3><p>₹299</p>
+      <ul><li>Diagnostics</li><li>Pickup & Drop</li><li>Same Day</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq">
+  <h2>FAQs</h2>
+  <div class="faq-item">
+    <button class="faq-question">How long does a repair take?</button>
+    <div class="faq-answer">Usually 24 hours or less.</div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Do you offer on-site support?</button>
+    <div class="faq-answer">Yes, within Delhi NCR.</div>
+  </div>
+</section>
+
+<!-- Form -->
+<section class="section contact" id="form">
+  <h2>Request a Service</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="tel" placeholder="Phone Number" required />
+    <textarea placeholder="Describe your issue..." required></textarea>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+
+ <!-- Contact -->
+ <section id="contact" class="section contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><i class="fas fa-map-marker-alt"></i> G-8, Gupta Place, A-2/42, Rajouri Garden, New Delhi</p>
+      <p><i class="fas fa-phone"></i> <a href="tel:+919810033475">+91 98100 33475</a></p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:careinfosys21@gmail.com">careinfosys21@gmail.com</a></p>
+      <p><i class="fas fa-location-arrow"></i> <a href="https://maps.app.goo.gl/PxZccQmYV8uCjwJHA" target="_blank">View on Google Maps</a></p>
+    </div>
+    <div class="social-links">
+      <a href="https://wa.me/919810033475" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/reel/C_nea-9vQg3/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+
+<!-- Footer -->
+<footer><p>&copy; 2025 CARE INFOSYS</p></footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  new Typed("#typed-text", {
+    strings: ["Laptop Repair", "CCTV Setup", "AMC", "Inverter Service"],
+    typeSpeed: 60, backSpeed: 40, loop: true
+  });
+  AOS.init({ duration: 800 });
+  new Swiper('.testimonials-swiper', {
+    loop: true, pagination: { el: '.swiper-pagination' }
+  });
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.onclick = () => {
+      q.classList.toggle('active');
+      const a = q.nextElementSibling;
+      a.style.display = a.style.display === 'block' ? 'none' : 'block';
+    };
+  });
+  function switchLang(lang) {
+    alert("Language switched to: " + (lang === 'hi' ? 'Hindi' : 'English'));
+  }
+</script>
+</body>
+</html>

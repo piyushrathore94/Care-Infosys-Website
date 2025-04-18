@@ -128,15 +128,17 @@
 </section>
 
 <!-- Form -->
-<section class="section contact" id="form">
-  <h2>Request a Service</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required />
-    <input type="tel" placeholder="Phone Number" required />
-    <textarea placeholder="Describe your issue..." required></textarea>
-    <button type="submit" class="btn">Submit</button>
-  </form>
-</section>
+<form action="https://formsubmit.co/piyush94hs@gmail.com" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="tel" name="phone" placeholder="Phone Number" required />
+  <textarea name="message" placeholder="Describe your issue..." required></textarea>
+
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://careinfosys.vercel.app/thank-you.html">
+
+  <button type="submit" class="btn">Submit</button>
+</form>
+
 
  <!-- Contact -->
  <section id="contact" class="section contact" data-aos="fade-up">
@@ -162,6 +164,10 @@
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/form.js"></script>
+
 <script>
   new Typed("#typed-text", {
     strings: ["Laptop Repair", "CCTV Setup", "AMC", "Inverter Service"],
@@ -183,4 +189,5 @@
   }
 </script>
 </body>
+
 </html>

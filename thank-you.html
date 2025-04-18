@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You – CARE INFOSYS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      overflow: hidden;
+    }
+
+    .thank-you-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      padding: 20px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .thank-you-container img {
+      width: 300px;
+      animation: bounce 2s infinite;
+      margin-bottom: 20px;
+    }
+
+    .thank-you-container h1 {
+      font-size: 3rem;
+      color: #004e92;
+      margin: 0;
+    }
+
+    .thank-you-container p {
+      font-size: 1.2rem;
+      color: #444;
+      margin: 15px 0;
+      max-width: 500px;
+    }
+
+    .thank-you-container a {
+      background: #ff6b00;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
+    }
+
+    .thank-you-container a:hover {
+      background: #ff3b00;
+      transform: scale(1.05);
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-15px);
+      }
+      60% {
+        transform: translateY(-8px);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-container">
+    <img src="https://undraw.co/api/illustrations/7aa74458-25d4-406f-9e08-9b7924b3b3cb" alt="Thank you illustration" />
+    <h1>Thank You!</h1>
+    <p>Your message has been sent successfully. Our team will get in touch with you shortly. 😊</p>
+    <a href="index.html">Back to Home</a>
+  </div>
+</body>
+</html>
